@@ -28,8 +28,8 @@ const Result = ({ formData }) => {
                 <Image src={Silver} width={90} height={80} alt='loading' />
                 </div>
                 <div className={styles.rate} >
-                <h3 style={{ color: "gold" }} > {goldString}<br/>{rupeeSymbol}:  {formData.gold}</h3>
-                <h3 style={{ color: "#989898" }} > {silverString} <br/> {rupeeSymbol}: {formData.silver}</h3> 
+                <h3 style={{ color: "gold" }} > {goldString}<br/>{rupeeSymbol}  {formData.gold}</h3>
+                <h3 style={{ color: "#989898" }} > {silverString} <br/> {rupeeSymbol} {formData.silver}</h3> 
                 </div>
                 <div className={styles.address} >
                 <h6>
